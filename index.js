@@ -33,15 +33,15 @@ const pet = {
 // --- Testing the pet object ---
 
 // 1. Initial status
-console.log(pet.status()); // Output: Pet Name: Fluffy, Species: Dog, Happiness: 50
+console.log(pet.status()); // Output: Pet Name: Sparky, Species: Dog, Happiness: 50
 
 // 2. Play with the pet
-console.log(pet.play());   // Output: You played with Fluffy! Happiness is now 60
+console.log(pet.play());   // Output: You played with Sparky! Happiness is now 60
 
 // 3. Updated status after feeding
-console.log(pet.feed());   // Output: You fed Fluffy! Happiness is now 80
-console.log(pet.status()); // Output: Pet Name: Fluffy, Species: Dog, Happiness: 80
+console.log(pet.feed());   // Output: You fed Sparky! Happiness is now 80
+console.log(pet.status()); // Output: Pet Name: Sparky, Species: Dog, Happiness: 80
 
 // 4. Bonus: Rename the pet
-console.log(pet.rename("Holly")); // Output: Your pet's new name is Sparky!
+console.log(pet.rename("Holly")); // Output: Your pet's new name is Holly!
 console.log(pet.status());         // Output: Pet Name: Sparky, Species: Dog, Happiness: 80
